@@ -3,10 +3,12 @@
 <h3 align="center"></h3>
 <ul>
   <li>HTML</li>
-  <li>CSS / SASS</li>
+  <li>CSS</li>
+  <li>SASS</li>
   <li>Cross-Browser Compatibility</li>
   <li>Responsive Web Design</li>
-  <li>JavaScript / TypeScript</li>
+  <li>JavaScript</li>
+  <li>TypeScript</li>
   <li>React</li>
   <li>Webpack</li>
   <li>Next.js</li>
