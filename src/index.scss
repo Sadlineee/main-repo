@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+@media only screen and (min-width: 1025px) {  
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      background: rgb(80, 80, 80);
+  }
+
+  main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30vh;
+      height: 12.5rem;
+      width: 20rem;
+      border-radius: 2rem;
+
+      .main_name {
+        
+          @keyframes light {
+              0% {text-shadow: 0 0 0}
+              10% {text-shadow: 0 0 10px #fff}
+              15% {text-shadow: 0 0 0}
+              20% {text-shadow: 0 0 10px #fff}
+              25% {text-shadow: 0 0 0}
+          }
+
+          margin-right: 0.2rem;
+          font-family: 'Pacifico', cursive;
+          font-size: 3rem;
+          color: #fff;
+          animation: light 5s linear infinite;
+
+          &:hover {
+              cursor: pointer;
+          }
+      }
+
+      .main_search {
+          margin-top: -0.5rem;
+          text-align: center;
+          width: 20rem;
+          height: 3rem;
+          font-family: 'Fira Code', monospace;
+          font-size: 1.5rem;
+          color: rgb(53, 115, 185);
+          border: 0;
+          outline: 0;
+
+          &::placeholder {
+              color: rgb(125, 178, 238);
+              opacity: 0.5;
+          }
+      }
+
+      .main_degree {
+          font-family: 'Pacifico', cursive;
+          font-size: 2.5rem;
+          color: #fff;
+      }
+  }
+
+}
