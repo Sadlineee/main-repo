@@ -6,11 +6,13 @@
   <li>CSS / SASS</li>
   <li>Cross-Browser Compatibility / Responsive Web Design</li>
   <li>JavaScript / TypeScript</li>
-  <li>React</li>
+  <li>REST API</li>li>
+  <li>React / Redux</li>
   <li>Webpack</li>
   <li>Next.js</li>
   <li>Node.js</li>
   <li>Express</li>
+  <li>Jest</li>
   <li>Git</li>
 </ul>
 <h2></h2>
