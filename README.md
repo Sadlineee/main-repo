@@ -6,7 +6,7 @@
   <li>CSS / SASS</li>
   <li>Cross-Browser Compatibility / Responsive Web Design</li>
   <li>JavaScript / TypeScript</li>
-  <li>REST API</li>li>
+  <li>REST API</li>
   <li>React / Redux</li>
   <li>Webpack</li>
   <li>Next.js</li>
