@@ -1,4 +1,3 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sadlineee&theme=dark&show_icons=true)
 <h2 align="center">Hi there. I,m a Fullstack Developer
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h2>
 <h3 align="center"></h3>
@@ -16,4 +15,5 @@
   <li>Jest</li>
   <li>Git</li>
 </ul>
+![](https://komarev.com/ghpvc/?username=Sadlineee)
 <h2></h2>
