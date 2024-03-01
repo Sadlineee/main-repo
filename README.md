@@ -15,5 +15,5 @@
   <li>Jest</li>
   <li>Git</li>
 </ul>
-![](https://komarev.com/ghpvc/?username=Sadlineee)
+[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=Sadlineee)](https://github.com/ashutosh00710/github-readme-activity-graph)
 <h2></h2>
