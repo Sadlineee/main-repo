@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,221,214,1) 0%, rgba(51,102,255,1) 90% );
+}
+
+header {
+    margin-top: 1rem;
+    text-align: center;
+    width: 16rem;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+article {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 3rem);
+    column-gap: 0;
+    grid-template-rows: repeat(5, 3rem);
+    row-gap: 0;
+    margin-top: 15rem;
+    height: 15rem;
+    width: 15rem;
+}
+
+.square_P {
+    position: absolute;
+    padding: 0.25rem;
+    height: 3rem;
+    width: 3rem;
+    background: url('https://cdn0.iconfinder.com/data/icons/3d-front-gradient/512/axe-front-gradient.png');
+    background-size: 100%;
+}
+
+.square_T {  
+    padding: 0.25rem;
+    height: 3rem;
+    width: 3rem;
+    background: url('https://cdn0.iconfinder.com/data/icons/3d-front-gradient/512/sheild-front-gradient.png');
+    background-size: 100%;
+}
+
+.square_R {
+    height: 3rem;
+    width: 3rem;
+}
+
+@keyframes Rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.square_A01, .square_A02, .square_B01, .square_B02, .square_B03, .square_O01, .square_O02, .square_I01, 
+.square_I02, .square_S01, .square_S02, .square_S03, .square_L01, .square_L02, .square_U01, .square_U02, 
+.square_H01, .square_H02, .square_K01, .square_K02, .square_M01, .square_M02, .square_Y01, .square_Y02 {
+    padding: 0.25rem;
+    height: 3rem;
+    width: 3rem;
+    animation: Rotate 10s linear infinite;
+}
+
+.square_A01, .square_A02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/256/Amp.png');
+    background-size: 100%;
+}
+
+.square_B01, .square_B02, .square_B03 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/256/Bitcoin.png ');
+    background-size: 100%;
+}
+
+.square_O01, .square_O02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/256/Polygon.png');
+    background-size: 100%;
+}
+
+.square_I01, .square_I02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/256/XRP.png');
+    background-size: 100%;
+}
+
+.square_S01, .square_S02, .square_S03 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/256/Shiba_Inu.png');
+    background-size: 100%;
+}
+
+.square_L01, .square_L02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/256/Polkadot.png');
+    background-size: 100%; 
+}
+
+.square_U01, .square_U02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/512/Ultra.png');
+    background-size: 100%;
+}
+
+.square_H01, .square_H02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/256/Ethereum_Classic.png');
+    background-size: 100%;
+}
+
+.square_K01, .square_K02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/512/FTX.png');
+    background-size: 100%;
+}
+
+.square_M01, .square_M02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/512/Mobox.png');
+    background-size: 100%;
+}
+
+.square_Y01, .square_Y02 {
+    background: url('https://cdn1.iconfinder.com/data/icons/crypto-coins-6/512/Neo.png');
+    background-size: 100%;
+}
+
+
+
