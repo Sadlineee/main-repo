@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    height: 7rem;
+    backdrop-filter: blur(40px);
+
+    &__text {
+        font-size: 1.4rem;
+        color: #fff;
+    }
+}

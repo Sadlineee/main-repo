@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 29.5rem;
+    height: 4rem;
+    backdrop-filter: blur(40px);
+
+    &__name {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    &__icon {
+        margin: 0 0 0.3rem 0.5rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+}

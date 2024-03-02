@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Cinzel', serif;
+    background: linear-gradient( to right, rgba(150,93,233,1), rgba(99,88,238,1) );
+
+    &::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: rgba(99,88,238,1);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 50px;
+        background-color: white;
+    }
+}
+
+@import './styles/Header.scss';
+@import './styles/Main.scss';
+@import './styles/Footer.scss';

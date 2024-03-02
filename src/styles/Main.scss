@@ -1,0 +1,39 @@
+.main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 20rem);
+    column-gap: 0.5rem;
+    grid-template-rows: 12rem;
+    row-gap: 0.5rem;
+    margin-top: 1rem;
+
+    &__gradient {
+        height: 12rem;
+        width: 20rem;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        transition: all 0.2s;
+
+        &-copy {
+            margin: 0.5rem;
+            height: 1.4rem;
+            width: 1.4rem;
+            font-size: 1.25rem;
+            color: #fff;
+            visibility: hidden;
+    
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        &:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 20px #000;
+
+            .main__gradient-copy {
+                visibility: visible;
+            }
+        }
+    }
+}
